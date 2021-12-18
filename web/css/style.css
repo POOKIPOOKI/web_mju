@@ -1,0 +1,153 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box
+            }
+            
+            .container {
+                max-width: 1080px;
+                width: 100%;
+                margin: 0 auto;
+            }
+            /*header*/
+            
+            header {
+                width: 100%;
+                height: 120px auto;
+                background: rgb(0, 0, 0);
+                border-top: 5px solid rgba(155, 255, 255, 0.966);
+            }
+            
+            .nav-grid {
+                display: grid;
+                grid-template-columns: 300px 1fr;
+            }
+            
+            .logo {
+                margin-top: 40px;
+                color: rgb(56, 255, 238);
+            }
+            
+            .logo h1 {
+                font-size: 28px;
+                text-transform: uppercase;
+            }
+            
+            .logo span {
+                font-size: 12px;
+            }
+            /*menu*/
+            
+            ul.menu {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                justify-items: end;
+                margin-top: 8%;
+            }
+            
+            ul.menu li {
+                list-style: none;
+            }
+            
+            ul.menu li a {
+                text-decoration: none;
+                color: rgb(56, 255, 238);
+                text-transform: uppercase;
+                transform: .3s ease-in-out;
+                padding: 5px 10px;
+            }
+            
+            ul.menu li a::hover {
+                background: rgb(241, 227, 227);
+                padding: 5px 10px;
+            }
+            
+            .content {
+                width: 100%;
+                height: auto;
+            }
+            
+            .content-heading {
+                font-size: 80px;
+                color: black;
+            }
+            
+            .content-course {
+                width: 100%;
+                height: auto;
+            }
+            /*news*/
+            
+            .news1 {
+                text-align: center;
+            }
+            
+            .content-news {
+                width: 100%;
+                height: auto;
+                text-align: center;
+            }
+            
+            .content-news-grid {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                text-align: center;
+                grid-gap: 1rem;
+            }
+            
+            .content-news-item img {
+                width: 100%;
+            }
+            /*contact*/
+            
+            .content-contact {
+                width: 100%;
+                height: auto;
+                text-align: center;
+                background: rgb(7, 7, 7);
+                color: rgb(252, 252, 252);
+            }
+            
+            .content-contact-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1rf);
+                text-align: center;
+            }
+            /*personnel*/
+            
+            .content-personnel {
+                width: 100%;
+                height: auto;
+                text-align: center;
+            }
+            
+            .content-personnel-grid {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                text-align: center;
+                grid-gap: 1rem;
+            }
+            
+            .content-personnel-item img {
+                width: 100%;
+            }
+            
+            .content-CONTACT1 {
+                width: 100%;
+                height: auto;
+                text-align: center;
+            }
+            
+            .content-CONTACT1-grid {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                text-align: center;
+                grid-gap: 1rem;
+            }
+            
+            .content-CONTACT1-item img {
+                width: 100%;
+            }
